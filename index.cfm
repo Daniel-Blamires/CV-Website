@@ -32,7 +32,8 @@
                     <div>
                         Excelling at mathematics and sciences, 
                         Daniel is currently studying at St. Peter's school in Huntingdon, Cambridgeshire.
-                        Now seeking university place to enjoy further mathematics.
+                        Planning to take A-Levels in September 2015.
+                        <!-- Now seeking university place to enjoy further mathematics. -->
                     </div>
                     <br />
                 </q>
