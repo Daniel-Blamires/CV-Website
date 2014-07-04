@@ -1,0 +1,305 @@
+html{
+    min-height: 100%;
+}
+body {
+    
+    color: #000000;
+    width: 100%;
+    margin: 0;
+    background: -moz-linear-gradient(-45deg,  rgba(180,227,145,0) 0%, rgba(180,227,145,0.02) 1%, rgba(144,214,94,1) 43%, rgba(97,196,25,1) 99%, rgba(180,227,145,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(180,227,145,0)), color-stop(1%,rgba(180,227,145,0.02)), color-stop(43%,rgba(144,214,94,1)), color-stop(99%,rgba(97,196,25,1)), color-stop(100%,rgba(180,227,145,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(180,227,145,0) 0%,rgba(180,227,145,0.02) 1%,rgba(144,214,94,1) 43%,rgba(97,196,25,1) 99%,rgba(180,227,145,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(180,227,145,0) 0%,rgba(180,227,145,0.02) 1%,rgba(144,214,94,1) 43%,rgba(97,196,25,1) 99%,rgba(180,227,145,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(180,227,145,0) 0%,rgba(180,227,145,0.02) 1%,rgba(144,214,94,1) 43%,rgba(97,196,25,1) 99%,rgba(180,227,145,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(180,227,145,0) 0%,rgba(180,227,145,0.02) 1%,rgba(144,214,94,1) 43%,rgba(97,196,25,1) 99%,rgba(180,227,145,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    min-height: 100%;
+    
+}
+section#content article#about img {
+    padding-left: 1.5%;
+    height: 19.2em;
+    width: auto;
+}
+section#content article a img#D {
+    float: left;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+img#DA {
+    padding-left: 1%
+}
+article#hobint ul {
+    list-style-type: none;
+    padding: 0.4%;
+}
+section#content a {
+    display: block;
+    text-decoration: underline;
+    text-align: right;
+}
+.fullwidth{
+    width: 93.7%;
+    margin: 1%;
+    border: 2px solid #000000;
+    border-radius: 1em;
+    padding-left: 2.8em;
+}
+.fullwidth:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+section#content {
+    font-family: cambria;
+    line-height: 1.3;
+    width: 100%;
+}
+aside section img {
+    width: 25%;
+}
+ header .contact {
+    display: inline-block;
+    vertical-align: top;
+    font-family: cambria;
+    line-height: 1.3;
+    font-size: 2.5em;
+    border: 2px solid #000000;
+    width: 21%;
+    padding: 1%;
+    margin-right: 0%;
+    margin-left: 1%;
+    text-align: center;
+    margin-top: 1%;
+    height: 72px;
+    padding-bottom: 13.203px;
+    padding-top: 13.203px;
+}
+header .contact, header .main_page, section#content article, footer ul, footer a#contact-lower, aside  section{
+    border-radius: 9px;
+}
+body header .contact span#C {
+    vertical-align: middle;
+}
+body section a#contact-lower {
+    float: right;
+}    
+header .main_page {
+    width: 71%;
+    margin: 1%;
+    display: inline-block;
+    font-family: Lucida Console;
+    font-size: 4.5em;
+    color: #000000;
+    vertical-align: top; 
+    border: 2px solid #000000;
+    margin-right: 2%;
+    overflow: hidden;
+}
+header .main_page a {
+    display: block;
+    padding: 1%;
+    text-align: center;
+}
+body section#content article#about {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    height: 19.1em;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+article, aside {
+    background-color: #FFFFFF
+}
+a:hover,
+a:active{
+    color: #b5d044;
+    background-color:#5c6def;
+}
+section#content  h2 {
+    font-size: 1.5em;
+    padding-left: 0.5ex;
+    padding-top: 1%;
+}
+section#content h3 {
+    padding-left: 0.5ex;
+    padding-top: 1%;
+}    
+section#content p {
+    font-size: 1.1em;
+    padding: 0.5ex;
+}
+article {
+    /*width 72% */
+    width: 67.5%;
+    border: 2px solid #000000;
+    margin-bottom: 1ex;
+    margin-left: 1%;
+    padding-left: 2.5%;
+    padding-bottom: 1.2em;
+    padding-right:1%;
+    min-height: 18.5em;
+}
+article ul {
+    font-size: 1.1em;
+}
+section#content img {
+    float: right;
+}
+section#content p#thanks, p#return {
+    font-size: 1.1em;
+    padding-bottom: 2.5em;
+}
+/* Content styles  */
+section#content q:before, section#content q:after{
+    font-size: 5em;
+    font-family: cambria;
+}
+section#content div {
+    font-size: 1.4em;
+    display: inline;
+    padding: 0.5ex;
+}
+section#content q:after {
+    text-align: right;
+    display: block;
+}
+/* Footer styles*/
+footer > div{
+    height: 5em;
+}
+footer ul {
+    width: 67%;
+    margin: 0% 2% 0% 1%;
+    padding-top: 1%;
+    border: 2px solid #000000;
+    font-size: 1.1em;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    padding-right:1%;
+    padding-left: 3%;
+    font-family: cambria;
+    list-style-type: none;
+    background-color: #FFFFFF;
+    
+}
+footer ul > li, footer ul > span >li {
+    display: inline-block;
+    width: 30%;
+}
+footer ul > span {
+    font-size: 2em;
+}
+footer ul > li > a > img {
+    vertical-align: middle;
+    margin-right: 1%;
+}
+footer a#contact-lower {
+    display: inline-block;
+    width: 21%;
+    text-align: center;
+    border: 2px solid #000000;
+    height: 100%;
+    margin: 0% 1%;
+    vertical-align: top;
+    padding: 0% 1%;
+    font-size: 2em;
+    padding-top: 1%;
+    vertical-align: middle
+}
+ body footer a#copy {
+    font-size: 0.8em;
+    text-align: center;
+    display: block;
+     padding-top: 1ex
+}
+section#content .fullwidth > p > a {
+    display: inline;
+}
+span#IMG img{
+    vertical-align: middle;
+    padding-bottom: 0%;
+}
+/* Aside styles */
+aside > section{
+    border: 2px solid #000000;
+    padding: 1%;
+    overflow: hidden;
+    float: right;
+    width: 20%;
+    margin: 1%;
+    margin-right: 1.8%;
+    margin-left: 2%;
+    background-color: #FFFFFF;
+    padding-left: 2%
+}
+section#content aside a img {
+    padding-left: 3%;
+}
+/* Begin form reset */
+div#form {
+    padding: 1%
+}
+div#form label {
+    display: block;
+    font-size: 1.4ex;
+}
+div#form input, div#form span, div#form textarea, div#form button{
+    display: inline-block;
+    vertical-align: top;
+    
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+div#form .align-left {
+    text-align: left;
+}
+div#form span {
+    width: 16%;
+}
+div#form input, div#form textarea {
+    width: 20.6%;
+}
+label input#date {
+    width: 20.6%;
+    
+}
+div#form input[type='checkbox']{
+    width:auto;
+    vertical-align: middle;
+    margin-left: 0.5ex;
+}    
+div#form textarea {
+    font: cambria;
+    line-height: 1.3;
+    height:5em;
+    padding-top: 2px;
+    resize: vertical;
+    max-height: 8em;
+}
+div#form button {
+    width: 22%;
+}
+label span#supersmall {
+    font-size: 0.8ex
+}
+div#form input, divform button {
+    height: 2em;
+}
+article div#formmargin h2 {
+    font-size: 1.2em;
+}
+div#form input#valid {
+    width: 0px;
+    height: 0px;
+    border: none;
+    position: absolute;
+    top: -2px;
+}
