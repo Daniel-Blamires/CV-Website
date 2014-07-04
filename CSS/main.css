@@ -1,3 +1,6 @@
+@media screen and (max-width:360px) {
+    font-size: 0.7em;
+}    
 html{
     min-height: 100%;
 }
